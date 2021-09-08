@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+
 export const Nav = styled.div`
   padding: 0 2rem;
   display: flex;
