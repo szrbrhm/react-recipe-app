@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../../components/header/Header";
 import axios from "axios";
-import { MainContainer, RecipeCard } from "./HomeStyle";
+import { MainContainer, RecipeCard, HomeImg, ImgDiv } from "./HomeStyle";
 import RecipeCardComp from './RecipeCardComp'
 
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
@@ -48,7 +48,12 @@ const Home = () => {
               ))}
 
       </MainContainer>
-      ) : null}
+      ) : (
+        <ImgDiv>
+        <HomeImg src={homeSvg} />
+        
+        </ImgDiv>
+      )}
 
 
 
