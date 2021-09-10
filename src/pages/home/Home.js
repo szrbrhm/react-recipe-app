@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import axios from "axios";
 import { MainContainer, RecipeCard, HomeImg, ImgDiv } from "./HomeStyle";
 import RecipeCardComp from './RecipeCardComp'
+import homeSvg from '../../assets/home.svg'
 
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
 const APP_ID = "fc502a09";
