@@ -1,11 +1,12 @@
 import React, { useState } from "react";  
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Navbar from "../components/navbar/Navbar";
+import Navbar from "../components/navbar/NavBar";
 import About from "../pages/about/About";
 import Home from "../pages/home/Home";
-import Details from "../pages/details/Details";
-import Login from "../pages/login/login";
-import PrivateRouter from './PrivateRouter';   
+import Details from "../Details/Details";
+import Login from "../pages/login/Login"
+import PrivateRouter from './PrivateRouter'; 
+
 function AppRouter() {
   const [isAuth, setIsAuth] = useState(false)
   const AuthContainer = () => (   
