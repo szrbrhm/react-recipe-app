@@ -11,7 +11,7 @@ const About = () => {
             </h1>
           </HeaderContainer>
           <InfoContainer>
-            <h1>I'm Oliver.</h1>
+            <h1>I'm Ibrahim.</h1>
             <h2>I’m currently learning Full-Stack Development Languages.</h2>
             <h2>
               I've already known JS, ReactJS, ReactNative, NodeJS, MongoDB,SQL,

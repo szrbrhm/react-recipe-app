@@ -21,7 +21,7 @@ export const InfoContainer = styled.div`
   padding: 25px;
   border-radius: 5px;
   a {
-    color: white;
+    color: black;
   }
 `;
 export const HeaderContainer = styled.div``;
