@@ -4,7 +4,7 @@ import Navbar from "../components/navbar/NavBar";
 import About from "../pages/about/About";
 import Home from "../pages/home/Home";
 import Details from "../Details/Details";
-import Login from "../pages/login/Login"
+import Login from "../pages/login/Login";
 import PrivateRouter from './PrivateRouter'; 
 
 function AppRouter() {
